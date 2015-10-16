@@ -1,0 +1,14 @@
+{
+  "name":"w_tomcat_role",
+  "description":"Percona XtraDB Cluster",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "default_attributes": {
+    "tomcat": {
+      "base_version": 7
+    }
+  },
+  "run_list": [
+    "recipe[w_tomcat]"
+  ]
+}

@@ -1,0 +1,11 @@
+name 'w_tomcat'
+maintainer 'Joel Handwell'
+maintainer_email 'joelhandwell@gmail.com'
+license 'apache2'
+description 'Installs/Configures w_tomcat'
+long_description 'Installs/Configures w_tomcat'
+version '0.1.0'
+
+depends 'firewall'
+depends 'java'
+depends 'tomcat'
